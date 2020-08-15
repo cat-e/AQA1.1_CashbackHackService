@@ -19,9 +19,9 @@ public class CashbackHackServiceTest {
     public void shouldNotAskToAdd() {
         int amount = 1000;
         CashbackHackService service = new CashbackHackService();
-        int expected = service.remain(amount);
+        int actual = service.remain(amount);
 
-        Assert.assertEquals(0, expected);
+        Assert.assertEquals(0, actual);
 
     }
 }
